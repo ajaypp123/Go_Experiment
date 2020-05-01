@@ -1,11 +1,14 @@
 /*
 Composition:
-Go dose not suport class inheritance and comosition.
-But using structure we can use composition.
+	Go dose not suport class inheritance and comosition.
+	But using structure we can use composition.
+
+	- We can replicate composition with struct.
+	by adding one struct to other.
 
 Example:
 	Person {name}
-	Student {Person, roll}
+	Student {per Person, roll int}
 	stu.name and stu.roll
 Here we are not using person.name and student is embeding person property.
 */
@@ -22,30 +25,30 @@ type Person struct {
 
 // Student type of Person
 type Student struct {
-	Person // Embedded Person struct in Student not created variable like roll
-	roll   int
-	class  string
+	per   Person // Embedded Person struct in Student created variable like roll
+	roll  int
+	class string
 }
 
 // Teacher type of Person
 type Teacher struct {
-	Person
+	per     Person
 	subject string
 }
 
 func myComposition() {
 	stu1 := Student{}
-	stu1.name = "A" // Here student is embeding person property
-	stu1.age = 22
+	per := Person{}
+	per.name = "A" // Here student is embeding person property
+	per.age = 22
+	stu1.per = per
 	stu1.roll = 2343
 	stu1.class = "First Year"
 
 	fmt.Println(stu1)
-	fmt.Println(stu1.name)
+	fmt.Println(stu1.per.name)
 }
 
-/*
 func main() {
 	myComposition()
 }
-*/
