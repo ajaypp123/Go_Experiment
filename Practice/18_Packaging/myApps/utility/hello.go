@@ -6,5 +6,5 @@ import (
 
 // Hello print hello
 func Hello() {
-	fmt.Print("Hello World")
+	fmt.Print("Hello World\n")
 }

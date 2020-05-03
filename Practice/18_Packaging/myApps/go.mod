@@ -1,3 +1,3 @@
-module github.com/ajaypp123/Go_Experiment/Practice/18_Packaging/myApps
+module example.com/myApps
 
-go 1.14
+go 1.13
