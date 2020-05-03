@@ -1,6 +1,8 @@
 /*
 Interfaces: Function
-Struct: Variables
+	Interface help to call method but it hide implementation inside it.
+	Interface providing polymorphism behavior.
+	Interface can bring struct inheritance.
 */
 
 package main
