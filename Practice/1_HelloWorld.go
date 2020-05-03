@@ -12,3 +12,9 @@ func myHello() {
 	fmt.Println("After time", time.Now())
 	fmt.Println(4 == 4, 4 == 3)
 }
+
+/*
+func main() {
+	myHello()
+}
+*/

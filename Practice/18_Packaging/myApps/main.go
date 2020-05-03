@@ -19,11 +19,18 @@ Module
 	Modules record precise dependency requirements and create reproducible builds.
 
 Package
-	- go get url // Download third party package
+	- Go to project directory and execute
+		$ go mod init example.com/myApps
+		$ go mod init // If running from .git location then it will pick path from git
+	- Build Application
+		$ go build // it will download all package and create go.mod and go.sum file
 
 */
 
 package main
 
+import "example.com/myApps/utility"
+
 func main() {
+	utility.Hello()
 }
