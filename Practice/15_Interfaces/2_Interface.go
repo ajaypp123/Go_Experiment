@@ -92,6 +92,8 @@ func shape() {
 	}
 }
 
+/*
 func main() {
 	shape()
 }
+*/
