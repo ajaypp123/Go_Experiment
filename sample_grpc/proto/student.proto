@@ -1,0 +1,50 @@
+/*
+protoc --go_out=. --go-grpc_out=. --grpc-gateway_out=. *.proto
+*/
+
+syntax = "proto3";
+
+package service;
+
+option go_package = "./service";
+
+service StudentService {
+  // Unary RPC: Send a single request and receive a single response.
+  rpc GetStudent(GetStudentRequest) returns (StudentResponse) {}
+
+  // Server Streaming RPC: Send a single request and receive multiple responses.
+  rpc GetAllStudents(GetAllStudentRequest) returns (stream StudentResponse) {}
+
+  // Client Streaming RPC: Send multiple requests and receive a single response.
+  rpc AddStudents(stream AddStudentRequest) returns (StudentsResponse) {}
+
+  // Bidirectional Streaming RPC: Send and receive multiple requests and responses.
+  rpc Chat(stream GetStudentRequest) returns (stream StudentResponse) {}
+}
+
+message Student {
+  string student_id = 1;
+  string name = 2;
+  float salary = 3;
+  string company = 4;
+}
+
+message GetStudentRequest {
+  string student_id = 1;
+}
+
+message GetAllStudentRequest {
+  repeated string student_ids = 1;
+}
+
+message AddStudentRequest {
+  Student student = 1;
+}
+
+message StudentResponse {
+  Student student = 1;
+}
+
+message StudentsResponse {
+  repeated Student students = 1;
+}

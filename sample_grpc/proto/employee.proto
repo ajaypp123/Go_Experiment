@@ -1,0 +1,50 @@
+/*
+protoc --go_out=. --go-grpc_out=. --grpc-gateway_out=. *.proto
+*/
+
+syntax = "proto3";
+
+package service;
+
+option go_package = "./service";
+
+service EmployeeService {
+  // Unary RPC: Send a single request and receive a single response.
+  rpc GetEmployee(GetEmployeeRequest) returns (EmployeeResponse) {}
+
+  // Server Streaming RPC: Send a single request and receive multiple responses.
+  rpc GetAllEmployees(GetAllEmployeeRequest) returns (stream EmployeeResponse) {}
+
+  // Client Streaming RPC: Send multiple requests and receive a single response.
+  rpc AddEmployees(stream AddEmployeeRequest) returns (EmployeesResponse) {}
+
+  // Bidirectional Streaming RPC: Send and receive multiple requests and responses.
+  rpc Chat(stream GetEmployeeRequest) returns (stream EmployeeResponse) {}
+}
+
+message Employee {
+  string employee_id = 1;
+  string name = 2;
+  float salary = 3;
+  string company = 4;
+}
+
+message GetEmployeeRequest {
+  string employee_id = 1;
+}
+
+message GetAllEmployeeRequest {
+  repeated string employee_ids = 1;
+}
+
+message AddEmployeeRequest {
+  Employee employee = 1;
+}
+
+message EmployeeResponse {
+  Employee employee = 1;
+}
+
+message EmployeesResponse {
+  repeated Employee employees = 1;
+}
