@@ -1,0 +1,92 @@
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:11:09Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:11:09Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:11:09Z"}
+{"file":"/application/monitoring-go-app/main.go:10","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T09:11:33Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:14:58Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:14:58Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:14:58Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:17:11Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:17:11Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:17:11Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:19:11Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:21:02Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:21:02Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:21:02Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:22:35Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:22:35Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:22:35Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:24:35Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:26:51Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:26:51Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:26:51Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:28:25Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:28:25Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:28:25Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:30:25Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:33:34Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:33:34Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:33:34Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:39:19Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:39:19Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:39:19Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:40:38Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:40:38Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:40:38Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:42:38Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:45:35Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:45:35Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:45:35Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:47:24Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:47:24Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:47:24Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:49:24Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T09:50:54Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T09:50:54Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:50:54Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:52:54Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:54:54Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T09:56:54Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T10:01:59Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T10:01:59Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T10:01:59Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T10:03:59Z"}
+{"file":"/application/monitoring-go-app/main.go:22","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T10:06:27Z"}
+{"file":"/application/monitoring-go-app/main.go:33","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T10:06:27Z"}
+{"file":"/application/monitoring-go-app/main.go:28","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T10:06:27Z"}
+{"file":"/application/monitoring-go-app/main.go:24","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T12:47:52Z"}
+{"file":"/application/monitoring-go-app/main.go:36","func":"main.main","level":"info","msg":"Start metrices ...","time":"2024-06-21T12:47:52Z"}
+{"file":"/application/monitoring-go-app/main.go:40","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T12:47:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:47:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:49:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:51:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:53:52Z"}
+{"file":"/application/monitoring-go-app/main.go:11","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T12:55:04Z"}
+{"file":"/application/monitoring-go-app/main.go:11","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T12:55:05Z"}
+{"file":"/application/monitoring-go-app/main.go:11","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T12:55:06Z"}
+{"file":"/application/monitoring-go-app/main.go:11","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T12:55:06Z"}
+{"file":"/application/monitoring-go-app/main.go:11","func":"main.healthApi","level":"info","msg":"Hitting API /health","time":"2024-06-21T12:55:07Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:55:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:57:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T12:59:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T13:01:52Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T13:03:52Z"}
+{"file":"/application/monitoring-go-app/main.go:24","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T13:05:48Z"}
+{"file":"/application/monitoring-go-app/main.go:36","func":"main.main","level":"info","msg":"Start metrices ...","time":"2024-06-21T13:05:48Z"}
+{"file":"/application/monitoring-go-app/main.go:40","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T13:05:48Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T13:05:48Z"}
+{"file":"/application/monitoring-go-app/main.go:24","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-21T13:12:36Z"}
+{"file":"/application/monitoring-go-app/main.go:36","func":"main.main","level":"info","msg":"Start metrices ...","time":"2024-06-21T13:12:36Z"}
+{"file":"/application/monitoring-go-app/main.go:40","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-21T13:12:36Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T13:12:36Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-21T13:14:36Z"}
+{"file":"/application/monitoring-go-app/main.go:24","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-22T10:10:10Z"}
+{"file":"/application/monitoring-go-app/main.go:36","func":"main.main","level":"info","msg":"Start metrices ...","time":"2024-06-22T10:10:10Z"}
+{"file":"/application/monitoring-go-app/main.go:40","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-22T10:10:10Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-22T10:10:10Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-22T10:12:10Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-22T10:14:10Z"}
+{"file":"/application/monitoring-go-app/main.go:24","func":"main.main","level":"info","msg":"Starting application ....","time":"2024-06-22T10:15:21Z"}
+{"file":"/application/monitoring-go-app/main.go:36","func":"main.main","level":"info","msg":"Start metrices ...","time":"2024-06-22T10:15:21Z"}
+{"file":"/application/monitoring-go-app/main.go:40","func":"main.main","level":"info","msg":"starting server...","time":"2024-06-22T10:15:21Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-22T10:15:21Z"}
+{"file":"/application/monitoring-go-app/main.go:30","func":"main.main.func1","level":"info","msg":"Testing application ....","time":"2024-06-22T10:17:21Z"}

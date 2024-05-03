@@ -1,0 +1,60 @@
+version: "3"
+services:
+  monitoring-go-app:
+    build:
+      context: ./
+    image: monitoring-go-app:latest
+    container_name: monitoring-go-app
+    restart: always
+    ports:
+    - "7000:7000"
+    volumes:
+    - ./log:/var/log
+
+  promtail:
+    image: grafana/promtail:2.6.1
+    container_name: promtail
+    volumes:
+      - ./log:/var/log
+      - ./resources/:/etc/promtail/
+    command: -config.file=/etc/promtail/promtail-config.yml
+    depends_on:
+      - monitoring-go-app
+
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    restart: always
+    #volumes:
+    #  - ./data:/data
+    ports:
+      - 3100:3100
+    depends_on:
+      - promtail
+
+  prometheus:
+    image: prom/prometheus:v2.34.0
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    #  - "--storage.tsdb.path=/prometheus/data"
+    volumes:
+      - ./resources/prometheus.yml:/etc/prometheus/prometheus.yml
+    #  - ./prometheus-data:/prometheus/data
+    depends_on:
+      - monitoring-go-app
+
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: grafana
+    restart: always
+    ports:
+      - 3000:3000
+    #volumes:
+    #  - ./resources/provisioning:/etc/grafana/provisioning
+    depends_on:
+      - monitoring-go-app
+      - loki
+      - prometheus
