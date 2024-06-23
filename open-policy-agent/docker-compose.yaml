@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  opa:
+    image: openpolicyagent/opa:latest
+    container_name: opa
+    ports:
+      - "8181:8181"
+    volumes:
+      - ./policies:/policies
+    command: ["run", "--server", "/policies"]
+
+  open-policy-agent:
+    build:
+      context: ./
+    image: open-policy-agent:latest
+    container_name: open-policy-agent
+    restart: always
+    ports:
+      - "8080:8080"

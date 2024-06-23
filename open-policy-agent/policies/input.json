@@ -1,0 +1,11 @@
+{
+    "user_permissions": {
+      "john": {
+        "read": ["mysql", "mongodb"],
+        "write": ["mysql"]
+      },
+      "jane": {
+        "read": ["mysql"]
+      }
+    }
+}
